@@ -1,12 +1,58 @@
-# React + Vite
+# Image Description App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React Vite web app for AI-powered image description, built as a graduation project.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Upload images (PNG/JPEG) via file input or drag-and-drop.
+- Display AI-generated descriptions from an API.
+- Styled with Tailwind CSS  and DaisyUI.
+- Responsive design with Home, About, and Help pages.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Front-end**: React, Vite, Tailwind CSS , DaisyUI, React Router, Axios
+- **Back-end**: Django, Django REST Framework ("see backend repo")
+- **AI Model**: ...... ("see AI Model repo")
+
+## Setup
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/image-description-app.git
+   cd image-description-app
+   ```
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+3. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+4. **Access the app** at `http://localhost:5173`.
+5. **Backend**:
+   - Ensure the Django backend is running at `http://localhost:8000/api/upload/`.
+   - See backend repo for setup.
+
+## Usage
+
+- Navigate to the Home page.
+- Upload or drag-and-drop an image (max 5MB).
+- Click "Get Description" to view the AI-generated description.
+- Use the Reset button to clear the form.
+
+## Contributing
+
+- Fork the repo and create a pull request with your changes.
+- Report issues in the Issues tab.
+
+## Team
+
+- Emad Mostafa - Front-end Developer
+- Ahemd Ezzat - AI Model, Backend
+- Ahemd Samir - Backend
+- Yousef Ezzat - Docs
