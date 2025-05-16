@@ -53,6 +53,6 @@ A React Vite web app for AI-powered image description, built as a graduation pro
 ## Team
 
 - Emad Mostafa - Front-end Developer
-- Ahemd Ezzat - AI Model, Backend
+- Ahemd Ezzat - AI Model
 - Ahemd Samir - Backend
 - Yousef Ezzat - Docs
